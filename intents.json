@@ -1,0 +1,587 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "hi",
+          "hey",
+          "Welcome",
+          
+          "is anyone there?",
+          "is there anybody",
+          "Hello",
+          "Good day",
+          "Doctor Ai.",
+          "Your news, Doctor Ai."
+         
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+
+      
+      {
+        "tag": "How23",
+        "patterns": [
+          "how are you"
+        ],
+        "responses": [
+          "Alhamdulillah fine thank you",
+          "i am fine, thank you"
+        ]
+      },
+      
+      {
+        "tag": "know1",
+        "patterns": [
+          "i am Mohammed",
+          "i am Ali",
+          "i am Adel",
+          "tell me about yourself",
+          "my name is Mohammed",
+          "what is your name",
+          "my name is Adel"
+        
+          
+        ],
+        "responses": [
+          "my name is Doctor Ai."
+        ]
+      },
+      
+      {
+        "tag": "slam",
+        "patterns": [
+          "Peace be upon you",
+          "alsalam waealaykum",
+          "May the peace, blessings, and mercy of God be upon you",
+          "alsalam ealaykum warahmat allah wabarakata"   
+        ],
+        "responses": [
+          "walaikum assalam warahmatullahi wabarakatuh"
+        ]
+      },
+
+
+      {
+        "tag": "info",
+        "patterns": [
+          "From the best team",
+          "From the coolest team",
+          "From the nicest team",
+          "Are you cheering for a team?"   
+        ],
+        "responses": [
+          "The best and coolest team in EVC is the Drones Team."
+        ]
+      },
+
+
+      {
+        "tag": "illness",
+        "patterns": [
+          "Can you help me diagnose my illness?"
+ 
+        ],
+        "responses": [
+          "'insha' allah"
+        ]
+      },
+      
+
+      {
+        "tag": "know2",
+        "patterns": [
+          "tell me about yourself",
+          "Can you tell me about yourself",
+          "Can you tell me your name",
+          "can you tell me about you",
+          "Who are you"  
+        ],
+        "responses": [
+          "I am an Advanced AI Model Designed to Diagnose Diseases And Provide Assistance. The drone team did my design And my name is Doctor Ai."
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "thanks for tell me",
+          "Have a nice day"
+          
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "I love you","Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+
+      {
+        "tag": "m",
+        "patterns": [
+          "Are you Muslim"
+        ],
+        "responses": [
+          "Of course, i am Muslim"
+        ]
+      },
+
+      {
+      "tag": "news",
+      "patterns": [
+        "What are the news for today?",
+        "Can you give me the latest news?",
+        "What's happening in the world?",
+        "Tell me the top headlines.",
+        "Any news updates?"
+      ],
+      "responses": [
+        "I'm sorry, I'm an AI language model and not currently equipped to provide real-time news updates."
+      ]
+    },
+    {
+      "tag": "restaurant",
+      "patterns": [
+        "Can you help me find a nearby restaurant?",
+        "I need a restaurant recommendation.",
+        "Find me a good place to eat.",
+        "Suggest a restaurant nearby."
+      ],
+      "responses": [
+        "I'm sorry, as an AI language model, I don't have access to location-based services. However, you can use various apps or websites to find restaurants nearby."
+      ]
+    },
+    {
+      "tag": "date",
+      "patterns": [
+        "What's the date today?",
+        "Can you tell me today's date?",
+        "What day is it?",
+        "Give me the current date."
+      ],
+      "responses": ["Today's date is ===>"]
+    },
+    {
+      "tag": "meaning",
+      "patterns": [
+        "What does the word 'fast' mean?",
+        "Define 'quick' for me.",
+        "Tell me the meaning of 'rapid'.",
+        "What is the definition of 'swift'?"
+      ],
+      "responses": ["'Fast' means moving or acting with great speed."]
+    },
+    {
+      "tag": "sleep_tips",
+      "patterns": [
+        "Can you give me advice for better sleep?",
+        "How can I improve my sleep quality?",
+        "What are some tips for better sleep?",
+        "Help me sleep better."
+      ],
+      "responses": [
+        "Improving sleep quality can include maintaining a consistent sleep schedule, creating a relaxing bedtime routine, avoiding heavy meals and caffeine before bedtime, and keeping a comfortable sleep environment."
+      ]
+    },
+    {
+      "tag": "tax_calculation",
+      "patterns": [
+        "How can I calculate income tax?",
+        "Explain income tax calculation.",
+        "What's the formula for calculating taxes?",
+        "Help me with income tax calculation."
+      ],
+      "responses": ["Income tax calculation varies based on your income, deductions, and local tax laws. It's best to consult a tax professional or use tax software for accurate calculations."]
+    },
+    {
+      "tag": "exercise_benefits",
+      "patterns": [
+        "What are the benefits of exercising?",
+        "Tell me the advantages of regular exercise.",
+        "How does exercise improve health?",
+        "Why is working out beneficial?"
+      ],
+      "responses": [
+        "Regular exercise has numerous benefits, including improved cardiovascular health, increased muscle strength, better mood, weight management, and reduced risk of chronic diseases like diabetes and heart disease."
+      ]
+    },
+    {
+      "tag": "translation",
+      "patterns": [
+        "Can you translate the word 'Hello' into French?",
+        "What is 'Hello' in French?",
+        "Translate 'Hi' to French."
+      ],
+      "responses": ["'Hello' in French is 'Bonjour'."]
+    },
+    {
+      "tag": "best_programming_book",
+      "patterns": [
+        "What's the best book for learning programming?",
+        "Can you recommend a good programming book?",
+        "Which programming book is highly recommended?"
+      ],
+      "responses": ["There are many great programming books available, but some popular ones include 'Clean Code' by Robert C. Martin and 'The Pragmatic Programmer' by Andrew Hunt and David Thomas."]
+    },
+    {
+      "tag": "exchange_rate",
+      "patterns": [
+        "What is the current exchange rate for USD to EUR?",
+        "Tell me the USD to EUR exchange rate.",
+        "What's the currency conversion rate for dollars to euros?"
+      ],
+      "responses": [
+        "I'm sorry, I don't have access to real-time financial data. You can check online currency converters or financial websites for the current exchange rate."
+      ]
+    },
+    {
+      "tag": "play_music",
+      "patterns": [
+        "Can you play some music?",
+        "Play a song for me.",
+        "Put on some music.",
+        "Play relaxing music."
+      ],
+      "responses": [
+        "I'm sorry, as an AI language model, I don't have the capability to play music. However, you can use various music streaming platforms to listen to your favorite songs."
+      ]
+    },
+    {
+      "tag": "mental_health_tips",
+      "patterns": [
+        "How can I take care of my mental health?",
+        "Give me some tips for mental well-being.",
+        "What are ways to improve mental health?",
+        "Help me maintain good mental health."
+      ],
+      "responses": [
+        "Taking care of mental health includes practicing self-care, seeking support from friends or professionals, engaging in hobbies, managing stress, and practicing mindfulness."
+      ]
+    },
+    {
+      "tag": "stock_investment",
+      "patterns": [
+        "Why is investing in stocks important?",
+        "What are the benefits of investing in the stock market?",
+        "Tell me about stock market investments.",
+        "Why should I consider investing in stocks?"
+      ],
+      "responses": [
+        "Investing in stocks can provide potential long-term growth, diversify your investment portfolio, and offer the opportunity to participate in the success of companies. However, stock market investments also carry inherent risks."
+      ]
+    },
+    {
+      "tag": "data_backup",
+      "patterns": [
+        "How do I back up my data?",
+        "What's the best way to create data backups?",
+        "Tell me about data backup methods.",
+        "Help me with data backup."
+      ],
+      "responses": [
+        "You can back up your data using external hard drives, cloud storage services, or backup software. Regular backups help protect your important files from loss or damage."
+      ]
+    },
+    {
+      "tag": "travel_safety_tips",
+      "patterns": [
+        "Can you give me safety tips for traveling?",
+        "How to travel safely?",
+        "Tell me about travel safety precautions.",
+        "Help me stay safe during travel."
+      ],
+      "responses": [
+        "Travel safety tips include researching your destination, securing important documents, staying aware of your surroundings, avoiding risky areas, and keeping your belongings secure."
+      ]
+    },
+
+    {
+      "tag": "pressure_handling_tips",
+      "patterns": [
+        "Do you have any tips for handling pressure?",
+        "How can I cope with stress?",
+        "Give me advice on dealing with pressure.",
+        "Help me manage stress and pressure."
+      ],
+      "responses": [
+        "Handling pressure can include practices like deep breathing, meditation, time management, seeking support, and maintaining a positive outlook."
+      ]
+    },
+    {
+      "tag": "improve_focus_tips",
+      "patterns": [
+        "How can I improve my focus and attention?",
+        "Give me tips for enhancing concentration.",
+        "Help me with increasing my focus.",
+        "What are effective ways to boost focus?"
+      ],
+      "responses": [
+        "Improving focus can be achieved through strategies like setting goals, minimizing distractions, taking breaks, and practicing mindfulness."
+      ]
+    },
+    {
+      "tag": "job_search",
+      "patterns": [
+        "Can you help me find a suitable job?",
+        "I need assistance with job hunting.",
+        "Help me with my job search.",
+        "Suggest job opportunities for me."
+      ],
+      "responses": [
+        "I'm sorry, as an AI language model, I don't have access to job listings. However, you can explore job websites and platforms for job opportunities."
+      ]
+    },
+    {
+      "tag": "personal_organization_apps",
+      "patterns": [
+        "What are the best apps for personal organization?",
+        "Recommend me some apps for staying organized.",
+        "Tell me about tools for personal time management.",
+        "Suggest apps for organizing my tasks."
+      ],
+      "responses": [
+        "There are many great personal organization apps available, including Todoist, Evernote, Trello, and Google Keep."
+      ]
+    },
+    {
+      "tag": "multilingual_importance",
+      "patterns": [
+        "Why is speaking multiple languages important?",
+        "Tell me about the benefits of being multilingual.",
+        "Explain the advantages of knowing multiple languages.",
+        "What are the perks of being bilingual?"
+      ],
+      "responses": [
+        "Speaking multiple languages can enhance cultural understanding, improve cognitive abilities, and open up more opportunities in communication and career."
+      ]
+    },
+    {
+      "tag": "language_skills_development",
+      "patterns": [
+        "Can you help me develop my language skills?",
+        "I want to improve my language proficiency.",
+        "Help me with language learning.",
+        "What are effective ways to enhance language abilities?"
+      ],
+      "responses": [
+        "Improving language skills can be achieved through regular practice, language courses, language exchange programs, and immersion experiences."
+      ]
+    },
+    {
+      "tag": "inspiring_movies",
+      "patterns": [
+        "What are the most inspiring movies I should watch?",
+        "Suggest some motivational films.",
+        "Give me recommendations for uplifting movies.",
+        "What movies can inspire me?"
+      ],
+      "responses": [
+        "There are many inspiring movies that can lift your spirits, such as 'The Pursuit of Happyness', 'Dead Poets Society', 'Rocky', and 'The Shawshank Redemption'."
+      ]
+    },
+    {
+      "tag": "communication_skills_tips",
+      "patterns": [
+        "Can you give me advice on improving my communication skills?",
+        "How can I be a better communicator?",
+        "Provide me with tips for effective communication.",
+        "Help me enhance my speaking abilities."
+      ],
+      "responses": [
+        "Improving communication skills involves active listening, clear articulation, using body language effectively, and practicing empathy in conversations."
+      ]
+    },
+    {
+      "tag": "personal_professional_goals",
+      "patterns": [
+        "How do I create a plan to achieve my personal and professional goals?",
+        "Give me guidance on setting and reaching my goals.",
+        "What's the best way to pursue my aspirations?",
+        "Help me with goal setting and achievement."
+      ],
+      "responses": [
+        "Creating a plan for your goals includes setting specific, measurable, achievable, relevant, and time-bound (SMART) objectives, breaking them down into smaller steps, and staying committed to your action plan."
+      ]
+    },
+    {
+      "tag": "weekend_activities",
+      "patterns": [
+        "Can you suggest fun activities for the weekend?",
+        "What are some enjoyable things to do on weekends?",
+        "Give me ideas for weekend leisure.",
+        "What are some weekend entertainment options?"
+      ],
+      "responses": [
+        "Weekend activities can include going for a hike, visiting a museum, watching a movie, trying a new recipe, or spending time with friends and family."
+      ]
+    },
+    {
+      "tag": "overcoming_challenges",
+      "patterns": [
+        "How can I overcome challenges and obstacles in life?",
+        "Help me deal with difficulties and setbacks.",
+        "Give me tips for facing life's challenges.",
+        "What are effective ways to tackle obstacles?"
+      ],
+      "responses": [
+        "Overcoming challenges involves building resilience, maintaining a positive mindset, seeking support, learning from experiences, and staying adaptable."
+      ]
+    },
+    {
+      "tag": "natural_headache_remedies",
+      "patterns": [
+        "Do you have information about natural remedies for headaches?",
+        "Tell me about home remedies for relieving headaches.",
+        "What are some natural headache treatments?",
+        "Give me tips for headache relief without medication."
+      ],
+      "responses": [
+        "Some natural headache remedies include applying a cold or warm compress, practicing relaxation techniques, staying hydrated, and avoiding triggers like caffeine and stress."
+      ]
+    },
+    {
+      "tag": "leadership_skills_development",
+      "patterns": [
+        "How can I develop my leadership skills?",
+        "Give me guidance on becoming a better leader.",
+        "What are effective ways to enhance leadership abilities?",
+        "Help me with leadership development."
+      ],
+      "responses": [
+        "Developing leadership skills involves honing communication, decision-making, and problem-solving skills, learning from leadership role models, and seeking leadership opportunities."
+      ]
+    },
+    {
+      "tag": "time_management_tips",
+      "patterns": [
+        "Can you give me advice on managing my time effectively?",
+        "How can I be more productive with my time?",
+        "Provide me with tips for better time management.",
+        "Help me make the most of my time."
+      ],
+      "responses": [
+        "Effective time management includes setting priorities, creating a schedule or to-do list, avoiding procrastination, and taking regular breaks to stay focused and energized."
+      ]
+    },
+    {
+      "tag": "self_improvement_books",
+      "patterns": [
+        "What are the best books for personal development?",
+        "Recommend me self-improvement books.",
+        "Suggest books for personal growth and self-help.",
+        "Tell me about books that can inspire self-improvement."
+      ],
+      "responses": [
+        "There are many great self-improvement books to consider, such as 'The 7 Habits of Highly Effective People' by Stephen Covey and 'Mindset: The New Psychology of Success' by Carol Dweck."
+      ]
+    },
+
+
+
+    {
+      "tag": "health_fitness",
+      "patterns": [
+        "What are the best ways to maintain my physical fitness?",
+        "Can you give me tips for a healthy diet?",
+        "How can I improve my flexibility and overall fitness?",
+        "Do you have any recommended exercises to strengthen muscles and stay fit?"
+      ],
+      "responses": [
+        "Maintaining physical fitness can include regular exercise, balanced nutrition, adequate hydration, and enough rest and sleep."
+      ]
+    },
+    {
+      "tag": "personal_skills",
+      "patterns": [
+        "How can I improve my communication skills with others?",
+        "Do you have any tips for time management and productivity?",
+        "What are effective strategies for setting and achieving goals?",
+        "Help me develop my personal skills for better performance."
+      ],
+      "responses": [
+        "Improving personal skills involves active listening, time blocking, setting SMART goals, and seeking opportunities for growth and learning."
+      ]
+    },
+    {
+      "tag": "emotional_wellbeing",
+      "patterns": [
+        "How can I cope with stress and pressure in life?",
+        "Can you provide tips for enhancing my emotional and mental well-being?",
+        "What are effective ways to manage anxiety and worry effectively?",
+        "How can I handle negative emotions and improve my mood?"
+      ],
+      "responses": [
+        "Enhancing emotional well-being includes practicing self-care, seeking support from friends or professionals, engaging in relaxing activities, and cultivating a positive mindset."
+      ]
+    },
+    {
+      "tag": "academic_career",
+      "patterns": [
+        "How can I improve my focus and excel in my studies?",
+        "Do you have tips for effective exam preparation?",
+        "What are the best strategies to boost my chances of getting a desired job?",
+        "Help me with my career development."
+      ],
+      "responses": [
+        "Improving academic performance involves staying organized, seeking study resources, practicing past exam papers, and exploring internship or networking opportunities for career growth."
+      ]
+    },
+    {
+      "tag": "travel_advice",
+      "patterns": [
+        "Can you provide safety tips for traveling?",
+        "How should I plan my itinerary for an upcoming trip?",
+        "What are some ways to immerse myself in new cultures and learn from them?",
+        "Help me stay safe and make the most of my travel experiences."
+      ],
+      "responses": [
+        "Travel safety tips include researching destinations, securing important documents, staying aware of surroundings, avoiding risky areas, and keeping belongings secure."
+      ]
+    },
+    {
+      "tag": "personal_professional_growth",
+      "patterns": [
+        "How can I set and achieve long-term professional goals?",
+        "Provide guidance on becoming a better leader.",
+        "What are effective ways to build a strong professional network?",
+        "Help me with my personal and professional development."
+      ],
+      "responses": [
+        "Creating a plan for personal and professional growth includes setting specific, measurable, achievable, relevant, and time-bound (SMART) goals, seeking mentorship, and taking advantage of learning opportunities."
+      ]
+    },
+    {
+      "tag": "digital_security",
+      "patterns": [
+        "What are the best practices for online security and privacy?",
+        "Do you have tips for using social media safely and responsibly?",
+        "How can I increase my productivity using smart apps and tools?",
+        "Help me leverage technology while staying safe online."
+      ],
+      "responses": [
+        "Online security practices include using strong passwords, enabling two-factor authentication, being cautious of suspicious links and messages, and regularly updating software."
+      ]
+    },
+    {
+      "tag": "hobbies_relaxation",
+      "patterns": [
+        "Can you suggest new hobbies for me to try?",
+        "How can I relax and relieve stress through creative activities?",
+        "Do you have tips for making the most of my leisure time?",
+        "Help me find enjoyable and fulfilling activities."
+      ],
+      "responses": [
+        "Hobbies and relaxation can include painting, gardening, reading, playing a musical instrument, or spending time in nature to unwind and rejuvenate."
+      ]
+    }
+
+
+
+    ]
+  }
+  
