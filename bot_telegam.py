@@ -51,17 +51,6 @@ patterns_c = [pattern for intent in intents_['intents'] for pattern in intent['p
 
 from googletrans import Translator
 
-# def translate_to_arabic(text):
-#     translator = Translator()
-#     translated_text = translator.translate(text, src='en', dest='ar', timeout=10)
-#     return translated_text.text
-
-# def translate_to_english(text):
-#     translator = Translator()
-#     translated_text = translator.translate(text, src='ar', dest='en', timeout=10)
-#     return translated_text.text
-
-
 def translate_to_arabic(text):
     result = [None]  # A mutable list to store the result from the thread
 
@@ -77,11 +66,9 @@ def translate_to_arabic(text):
     # Wait for the thread to complete, but with a timeout
     thread.join(timeout=10)
 
-    # Check if the thread is still running (i.e., translation took more than 10 seconds)
     if thread.is_alive():
-        thread.join()  # Forcefully join the thread if it's still running
+        thread.join()  
 
-    # Retrieve the translation result from the result list
     translated_text = result[0]
     return translated_text
 def translate_to_english(text):
@@ -212,10 +199,6 @@ def model_slam(text):
         else:
             print(f"{bot_name}: I do not understand...")
 
-
-
-
-
 def more_iform(predicted_class):
             with open('output_file_999.json', 'r', encoding="utf-8") as json_data:
                 intents = json.load(json_data)
@@ -253,10 +236,8 @@ def more_iform(predicted_class):
                         return prd
 
 
-# استخدام الكود الأول للتفاعل مع المستخدم
 stopwordSet = set(stopwords.words('english'))
 
-    # تحميل وتجهيز الملف الذي يحتوي على البيانات
 df = pd.read_csv(r'C:\Users\asus\Desktop\Artificial intelligence\Third Year\Summer\EVC\Dataanlysez\project\Symptom2Disease.csv')
 data = df[['label','text']]
 le = LabelEncoder()
@@ -264,7 +245,6 @@ labelEncode = le.fit_transform(data["label"])
 categorical_y = to_categorical(labelEncode)
 
 
-# تنفيذ نفس الخطوات التي تم تنفيذها سابقًا لتحديد متغير tfidv
 tfidv = TfidfVectorizer(max_features=20001)
 textList = data.text.apply(leadMyWord)
 textList = list(textList)
@@ -272,17 +252,13 @@ x = tfidv.fit_transform(textList)
 x.sort_indices()
 
 bot_name = "Drons Team: "
-# Initialize the Telegram bot
 bot = telebot.TeleBot(BOT_TOKEN)
 
-# Handler for the /start command
 @bot.message_handler(commands=['start'])
 def start(update, context):
     update.message.reply_text("مرحباً بك ، مالذي تشعر به؟")
 
-# ... (الكود السابق هنا) ...
 
-# Handler for incoming messages
 def handle_message(update, context):
     user_input = update.message.text
     user_input = translate_to_english(user_input)
